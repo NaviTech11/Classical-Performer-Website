@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #FFFFFF;
+}
+
+nav h1 {
+    font-family: "Ubuntu", sans-serif;
+    color: #C4C4C4;
+}
+
+i, #cpwNavbar {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.cropped {
+    height: 800px;
+    overflow: hidden;
+}
+
+.cropped img {
+    margin-top: -300px;
+}
