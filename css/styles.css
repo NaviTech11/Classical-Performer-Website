@@ -24,3 +24,18 @@ i, #cpwNavbar {
 .cropped img {
     margin-top: -300px;
 }
+
+.site-footer {
+    background-color: #464648;
+    padding: 20px 0;
+}
+
+.site-footer h2 {
+    font: 48px "Roboto", sans-serif;
+    color: #000000;
+}
+
+.site-footer h3 {
+    font: 14px "Roboto", sans-serif;
+    color: #000000;
+}
