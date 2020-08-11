@@ -22,7 +22,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-light sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><h1>Ivan Hernandez</h1></a>
+            <a class="navbar-brand" href="index.html"><h1 class="navHeader">Ivan Hernandez</h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cpwNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,33 +46,92 @@
 
     <!-- CONTENT -->
     <!-- Bio-->
-    <div class="container">
+    <section class="container">
         <div class="row">
-            <div class="col">
-                <h1>Ivan Hernandez</h1>
+            <div class="col pt-4">
+                <h1 class="bodyHeader">Ivan Hernandez</h1>
             </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col col-sm-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique suscipit efficitur 
+                    in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, luctus quis diam. Praesent a erat metus. 
+                    Praesent sed finibus nisl. Phasellus sodales elit sed luctus varius. Aenean volutpat vehicula convallis. Duis malesuada 
+                    nibh a diam fermentum, in ultrices mauris rutrum. Morbi eros augue, imperdiet sed quam auctor, hendrerit molestie orci. 
+                    Proin auctor dictum neque quis euismod. Donec congue maximus facilisis. Donec sed augue vel arcu euismod congue et non ex. 
+                    Vestibulum vitae finibus nunc, vel convallis felis. Sed euismod tellus mi, et lacinia neque hendrerit non.</p> 
+                    
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac cursus neque. 
+                    Aenean bibendum dapibus dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+                    Integer varius fringilla purus in consequat. Nullam ornare nunc congue magna elementum sodales. Donec et libero et ipsum 
+                    fringilla aliquet non ac risus. Mauris tincidunt orci vitae nulla consequat, non consequat dolor vestibulum.</p>
+                    
+                <p>Integer tincidunt rutrum venenatis. Vestibulum convallis nibh nec augue vestibulum lobortis. Ut fermentum eget nisl 
+                    quis dignissim. Etiam in auctor orci. Morbi tincidunt aliquet sem eleifend ultrices. Vivamus at nulla a sapien tempus 
+                    elementum sed vitae dolor. Ut nisi arcu, blandit auctor dictum vitae, tempus et lacus. Ut augue lacus, tempor vel metus 
+                    ut, ultrices facilisis est. Curabitur suscipit ligula risus.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- NEWS -->
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="bodyHeader">News</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 mb-1">
+                <div class="card bg-light text-center">
+                    <img class="card-img-top" src="img/news1.jpg" alt="Some Alt Text Goes Here" />
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-1">
+                <div class="card bg-light text-center">
+                    <img class="card-img-top" src="img/news2.jpg" alt="Some Alt Text Goes Here" />
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-1">
+                <div class="card bg-light text-center">
+                    <img class="card-img-top" src="img/news4.jpg" alt="Some Alt Text Goes Here" />
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="site-footer">
         <div class="container">
-            <div class="row mt-4">
-                <div class="col-4 col-sm-2 offset-1 pt-2">
-                    <a href="#"><h2>STUDIO</h2></a>
+            <div class="row mt-4 offset-1">
+                <div class="col-12 col-sm-2 text-center pt-1">
+                    <a class="footer-link" href="#"><p>STUDIO</p></a>
                 </div>
-                <div class="col-6 col-sm-5 text-center pt-4">
+                <div class="col-12 col-sm-5 text-center pt-4">
                     <a class="btn btn-social-icon fa-lg" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                     <a class="btn btn-social-icon fa-lg" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                     <a class="btn btn-social-icon fa-lg" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
                     <a class="btn btn-social-icon fa-lg" href="http://spotify.com/"><i class="fa fa-spotify"></i></a>
                     <a class="btn btn-social-icon fa-lg" href="https://www.apple.com/itunes/"><i class="fa fa-apple"></i></a>
-                    <h3>&#169 Copyright - Ivan Hernandez - Walter Macedo - 2020</h3>
+                    <p class="copyright">&#169 Copyright - Ivan Hernandez - Walter Macedo - 2020<p>
                 </div>
-                <div class="col-sm-4 text-center pt-2">
-                    <a href="#"><h2>CONTACT</h2></a>
+                <div class="col-12 col-sm-4 text-center pt-1">
+                    <a class="footer-link" href="#"><p>CONTACT</p></a>
                 </div>
             </div>
         </div>

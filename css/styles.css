@@ -2,8 +2,8 @@
     background-color: #FFFFFF;
 }
 
-nav h1 {
-    font-family: "Ubuntu", sans-serif;
+.navHeader {
+    font-family: 48px "Ubuntu", sans-serif;
     color: #C4C4C4;
 }
 
@@ -25,17 +25,29 @@ i, #cpwNavbar {
     margin-top: -300px;
 }
 
+.bodyHeader {
+    font: 72px "Roboto Condensed", sans-serif;
+    color: #32527B;
+}
+
+p {
+    font: "Roboto", sans-serif;
+    color: #000000;
+}
+
 .site-footer {
     background-color: #464648;
     padding: 20px 0;
 }
 
-.site-footer h2 {
-    font: 48px "Roboto", sans-serif;
-    color: #000000;
+.footer-link {
+    font-size: 48px;
 }
 
-.site-footer h3 {
-    font: 14px "Roboto", sans-serif;
-    color: #000000;
+.copyright {
+    font-size: 14px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
 }
