@@ -1,26 +1,26 @@
 {
-  "name": "classical-performer-website",
+  "name": "q",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
     "bootstrap-social": "^5.1.1",
+    "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Ivan Hernandez and Walter Macedo",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NaviTech11/Classical-Performer-Website.git"
   },
-  "author": "Ivan Hernandez Walter Macedo",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/NaviTech11/Classical-Performer-Website/issues"
   },
-  "homepage": "https://github.com/NaviTech11/Classical-Performer-Website#readme"
+  "homepage": "https://github.com/NaviTech11/Classical-Performer-Website#readme",
+  "description": ""
 }
