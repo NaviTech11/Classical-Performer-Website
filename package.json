@@ -1,7 +1,6 @@
 {
   "name": "q",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.5.0",
@@ -13,6 +12,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ivan Hernandez",
-  "license": "ISC"
+  "author": "Ivan Hernandez and Walter Macedo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaviTech11/Classical-Performer-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NaviTech11/Classical-Performer-Website/issues"
+  },
+  "homepage": "https://github.com/NaviTech11/Classical-Performer-Website#readme",
+  "description": ""
 }
