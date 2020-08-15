@@ -1,18 +1,26 @@
 {
-  "name": "Bootstrap Project",
+  "name": "classical-performer-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "bootstrap-social": "^5.1.1",
     "jquery": "^3.5.1",
+    "bootstrap-social": "^5.1.1",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ivan Hernandez & Walter Macedo",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaviTech11/Classical-Performer-Website.git"
+  },
+  "author": "Ivan Hernandez Walter Macedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaviTech11/Classical-Performer-Website/issues"
+  },
+  "homepage": "https://github.com/NaviTech11/Classical-Performer-Website#readme"
 }
