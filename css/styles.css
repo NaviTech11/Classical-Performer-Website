@@ -91,6 +91,17 @@ a:-webkit-any-link {
     
 }
 
+/* --------------------------------------------------CALENDAR--------------------------------- */
+
+.concertDate {
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+.calendarHeader {
+    margin-bottom: 3%;
+}
+
 /* --------------------------------------------------STUDIO--------------------------------- */
 
 /* CASROUSSEL */
@@ -171,8 +182,9 @@ form {
 }
 
 /* ----------------------------------SHOPPING CART -------------------------------- */
-/* ----Items-list--- */
-
+.shopping-cart{
+    padding: 7%;
+}
 
 .shopping-header {
     margin-bottom: 10%;
@@ -190,10 +202,6 @@ form {
     height: 200px;
     width: 100%;
 }
-
-
-
-
 
 /* ---CHECKOUT COLUMN---- */
 .checkout-column{
@@ -246,3 +254,10 @@ form {
     background-size: cover;
   }
 
+/* ----------------------------THANK-YOU------------------------------ */
+.thank-you-note {
+    border: 3px solid #32527B;
+    margin-top: 3%;
+    padding: 12%;
+    text-align: center;
+}
