@@ -112,6 +112,15 @@ a:-webkit-any-link {
     border-bottom: 1px ridge;
 }
 
+.accordionHeader {
+    color: #D4AF37;
+}
+
+.tabHeader {
+    color: #000;
+    font-weight: bold;
+}
+
 /* --------------------------------------------------CONTACT--------------------------------- */
 
 .contactBackground {
