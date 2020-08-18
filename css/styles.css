@@ -106,20 +106,41 @@ a:-webkit-any-link {
 }
 
 /* --------------------------------------------------MEDIA--------------------------------- */
-
-.mediaHeader {
-    margin-bottom: 3%;
+.media-section {
+    padding: 5% 0;
+}
+.mediaHeader, .recordingsHeader, .liveStreamHeader {
+    margin: 3% 0;
     border-bottom: 1px ridge;
 }
 
-.accordionHeader {
-    color: #D4AF37;
+/* ----------------RECORDINGS----------------- */
+.recordings-playlist {
+   padding-bottom: 10%;
+   
 }
 
-.tabHeader {
-    color: #000;
-    font-weight: bold;
+.mediaAudio {
+    width: 100%;
 }
+
+.recordingTitle {
+    color: #D4AF37;
+    
+}
+
+/* ----------------STREAM----------------- */
+ .stream-screen{
+    background-color: #000;
+    padding: 20% 10%;
+
+}
+
+.play-icon{
+    font-size: 10rem;
+    margin-left: 42.5%;
+}
+ 
 
 /* --------------------------------------------------CONTACT--------------------------------- */
 
@@ -143,7 +164,10 @@ a:-webkit-any-link {
 
 .contactFooter {
     background-color: #464648;
+    padding: 2% 4% 4%;
 }
+
+
 
 /* --------------------------------------------------STUDIO--------------------------------- */
 
@@ -225,8 +249,9 @@ form {
 }
 
 /* ----------------------------------SHOPPING CART -------------------------------- */
-/* ----Items-list--- */
-
+.shopping-cart{
+    padding: 7%;
+}
 
 .shopping-header {
     margin-bottom: 10%;
@@ -245,14 +270,10 @@ form {
     width: 100%;
 }
 
-
-
-
-
 /* ---CHECKOUT COLUMN---- */
 .checkout-column{
     margin-top: 5%;
-   padding-left: 12%;
+    padding-left: 12%;
     text-align: center;
 }
 
@@ -300,3 +321,10 @@ form {
     background-size: cover;
   }
 
+/* ----------------------------THANK-YOU------------------------------ */
+.thank-you-note {
+    border: 3px solid #32527B;
+    margin-top: 3%;
+    padding: 12%;
+    text-align: center;
+}
