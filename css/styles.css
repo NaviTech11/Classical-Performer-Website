@@ -48,7 +48,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* -------- BIO --------- */
 .bio-header{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    border-bottom: 1px ridge;
 }
   
 
@@ -59,7 +60,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .newsHeader {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    border-bottom: 1px ridge;
 }
 
 /* --------FOOTER--------- */
@@ -100,18 +102,62 @@ a:-webkit-any-link {
 
 .calendarHeader {
     margin-bottom: 3%;
+    border-bottom: 1px ridge;
 }
 
-/* -----------------------------------------------STREAM------------------------------------- */
+/* --------------------------------------------------MEDIA--------------------------------- */
+.media-section {
+    margin: 5%;
+}
+.mediaHeader {
+    margin-bottom: 3%;
+    border-bottom: 1px ridge;
+}
+
+/* ----------------RECORDINGS----------------- */
+.recordings-playlist {
+    margin: 5%;
+}
+
+/* ----------------STREAM----------------- */
 .stream-screen{
     background-color: #000;
     padding: 20% 10%;
+
 }
 
 .play-icon{
     font-size: 10rem;
     margin-left: 42.5%;
 }
+
+
+/* --------------------------------------------------CONTACT--------------------------------- */
+
+.contactBackground {
+    margin-top: 1rem;
+    background-image: url("../img/clar1.jpg");
+    background-size: cover;
+    background-position-y: 30%;
+    height: 42rem;
+}
+
+.contactHeader {
+    font-size: 53px;
+}
+
+.formContainer {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 2px;
+    border-radius: 12px;
+}
+
+.contactFooter {
+    background-color: #464648;
+    padding: 2% 4% 4%;
+}
+
+
 
 /* --------------------------------------------------STUDIO--------------------------------- */
 
