@@ -31,11 +31,12 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Calendar</a></li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a class="nav-link dropdown-toggle" href="media.html" id="media" data-toggle="dropdown">
                                 Media
                             </a>
                             <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#recordings">Recordings</a>
                                 <a class="dropdown-item" href="#stream">Live Stream</a>
                             </div>
                         </li>
@@ -55,25 +56,159 @@
 
     <!-- CONTENT -->
     <!-- VIDEO CARDS-->
+    <!------------------- MEDIA ------------------------->
 
-     <!-- STREAM -->
-     <section id="stream">
-        <div class="container">
-            <div class="row stream-screen">
-                <p class="play-icon"><i class="fa fa-play"></i></p> 
-                <!-- live stream screen -->
+    <section class="container media-section">
+        <div class="row">
+            <div class="col">
+                <h1 class="mediaHeader">Media</h1>
             </div>
-            <div class="row">
-                <p>No live stream at the moment</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 mb-5">
+                <div class="card bg-light text-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/540y1Cf0sKk"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6 pl-0">
-                    <a role="button" class="btn btn-md btn-outline-dark" href="calendar.html">Go to Calendar</a>
+            <div class="col-12 col-md-6 mb-5">
+                <div class="card bg-light text-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/POfKTXV15aE"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card bg-light text-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YQHzDnLUk6Y"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card bg-light text-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D5Vr4VKZM3w"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
+
+    <!-- RECORDINGS LIST -->
+
+    <section id="recordings" class="container recordings-playlist">
+        <h1 class="recordings-heading">Recordings Playlist</h1>
+        <div class="row">
+            <div class="col">
+                <div id ="accordion">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4><a data-toggle="collapse" data-target="#paganini">Paganini Caprice No 5</a></h4>
+                            <div class="collapse" id="paganini" data-parent="#accordion">    
+                                <div class="card-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/540y1Cf0sKk" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                                        suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                                        luctus quis diam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4><a class="collapsed" data-toggle="collapse" data-target="#concertoOne">Jean Francaix Clarinet Concerto I</a></h4>
+                            <div class="collapse" id="concertoOne" data-parent="#accordion">    
+                                <div class="card-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/POfKTXV15aE" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                                        suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                                        luctus quis diam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4><a class="collapsed" data-toggle="collapse" data-target="#concertoFour">Jean Francaix Clarinet Concerto IV</a></h4>
+                            <div class="collapse" id="concertoFour" data-parent="#accordion">    
+                                <div class="card-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YQHzDnLUk6Y" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                                        suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                                        luctus quis diam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4><a class="collapsed" data-toggle="collapse" data-target="#bassi">Bassi Rigoletto Fantasy</a></h4>
+                            <div class="collapse" id="bassi" data-parent="#accordion">    
+                                <div class="card-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D5Vr4VKZM3w" allowfullscreen></iframe>
+                                    </div>
+                                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                                        suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                                        luctus quis diam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- STREAM -->
+    <section id="stream" class="container">  
+        <div class="row">
+            <h1>Live Stream</h1> 
+        </div>
+        <div class="row stream-screen">
+            <p class="play-icon"><i class="fa fa-play"></i></p> 
+            <!-- live stream screen -->
+        </div>
+        <div class="row">
+            <p>No live stream at the moment</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 pl-0">
+                <a role="button" class="btn btn-md btn-outline-dark" href="calendar.html">Go to Calendar</a>
+            </div>
+        </div>
+    </section>
 
    <!-- FOOTER -->
 <footer class="site-footer">
@@ -89,7 +224,7 @@
                 <a class="btn btn-social-icon social-icon" href="http://spotify.com/"><i class="fa fa-spotify"></i></a>
                 <a class="btn btn-social-icon social-icon" href="https://www.apple.com/itunes/"><i class="fa fa-apple"></i></a>
             </div>
-            <div class="col-12 col-sm-2 text-center pt-1">
+            <div class="col-12 col-sm-2 text-center">
                 <a class="footer-link" href="contact.html"><p>CONTACT</p></a>
             </div>
         </div>

@@ -31,47 +31,80 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="calendar.html">Calendar</a></li>
-                    <li class="nav-item"><a class="nav-link" href="stream.html">Stream</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="media.html" id="media" data-toggle="dropdown">
+                            Media
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="media.html">Recordings</a>
+                            <a class="dropdown-item" href="media.html">Live Stream</a>
+                        </div>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="studio.html">Studio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="shoppingCart.html"><i class="fa fa-shopping-cart fa-lg"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="shoppingCart.html"><i class="fa fa-shopping-cart fa-lg"></i></a></li>
                 </ul>
             </div>  
         </nav>
     </div>
 </section>
     <!-- Back Image -->
-
+    <div class="contactBackground">
     <!-- CONTENT -->
-    <!-- SUBTITLE-->
-
+    
     <!-- CONTACT FORM -->
-
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <form class="formContainer">
+                    <h2 class="contactHeader text-center pb-4">Contact</h2>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Your Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <textarea class="form-control" id="contactMessage" name="contactMessage" rows="8" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-10 offset-1">
+                            <button type="submit" class="btn btn-dark">Send Message </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>    
     <!-- Sign up for Newsletter -->
 
    <!-- FOOTER -->
-<footer class="site-footer">
+<footer class="contactFooter">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-2 text-center">
-                <a class="footer-link" href="studio.html"><p>STUDIO</p></a>
-            </div>
-            
-            <div class="col-12 col-sm-8 text-center mt-2">
-                <a class="btn btn-social-icon social-icon" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                <a class="btn btn-social-icon social-icon" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                <a class="btn btn-social-icon social-icon" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                <a class="btn btn-social-icon social-icon" href="http://spotify.com/"><i class="fa fa-spotify"></i></a>
-                <a class="btn btn-social-icon social-icon" href="https://www.apple.com/itunes/"><i class="fa fa-apple"></i></a>
-            </div>
-            <div class="col-12 col-sm-2 text-center pt-1">
-                <a class="footer-link" href="donation.html"><p>DONATE</p></a>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-12">
-                <p class="copyright">&#169 Copyright - Ivan Hernandez - Walter Macedo - 2020<p></p>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <input type="email" class="form-control" id="newsletterEmail" name="newsletterEmail" placeholder="Sign up for my Newsletter..." />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12 offset-5">
+                            <button type="submit" class="btn btn-dark">Subscribe </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
