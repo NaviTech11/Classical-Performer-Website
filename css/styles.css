@@ -107,20 +107,30 @@ a:-webkit-any-link {
 
 /* --------------------------------------------------MEDIA--------------------------------- */
 .media-section {
-    margin: 5%;
+    padding: 5% 0;
 }
-.mediaHeader {
-    margin-bottom: 3%;
+.mediaHeader, .recordingsHeader, .liveStreamHeader {
+    margin: 3% 0;
     border-bottom: 1px ridge;
 }
 
 /* ----------------RECORDINGS----------------- */
 .recordings-playlist {
-    margin: 5%;
+   padding-bottom: 10%;
+   
+}
+
+.mediaAudio {
+    width: 100%;
+}
+
+.recordingTitle {
+    color: #D4AF37;
+    
 }
 
 /* ----------------STREAM----------------- */
-.stream-screen{
+ .stream-screen{
     background-color: #000;
     padding: 20% 10%;
 
@@ -130,7 +140,7 @@ a:-webkit-any-link {
     font-size: 10rem;
     margin-left: 42.5%;
 }
-
+ 
 
 /* --------------------------------------------------CONTACT--------------------------------- */
 
@@ -263,7 +273,7 @@ form {
 /* ---CHECKOUT COLUMN---- */
 .checkout-column{
     margin-top: 5%;
-   padding-left: 12%;
+    padding-left: 12%;
     text-align: center;
 }
 

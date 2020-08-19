@@ -65,36 +65,40 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-6 mb-5">
-                <div class="card bg-light text-center">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/540y1Cf0sKk"></iframe>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
-                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
-                            luctus quis diam.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mb-5">
-                <div class="card bg-light text-center">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/POfKTXV15aE"></iframe>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
-                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
-                            luctus quis diam.</p>
-                    </div>
-                </div>
+            <div class="col">
+                <h3 class="recordingTitle">Live Performances</h3>
             </div>
         </div>
         <div class="row">
+            <div class="col-12 col-md-6 mb-5">
+                <div class="card bg-light text-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/540y1Cf0sKk" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-5">
+                <div class="card bg-light text-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/POfKTXV15aE" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
+                            suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
+                            luctus quis diam.</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-12 col-md-6">
                 <div class="card bg-light text-center">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YQHzDnLUk6Y"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YQHzDnLUk6Y" allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
@@ -106,7 +110,7 @@
             <div class="col-12 col-md-6">
                 <div class="card bg-light text-center">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D5Vr4VKZM3w"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D5Vr4VKZM3w" allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
@@ -122,18 +126,25 @@
     <!-- RECORDINGS LIST -->
 
     <section id="recordings" class="container recordings-playlist">
-        <h1 class="recordings-heading">Recordings Playlist</h1>
+        <div class="row">
+            <div class="col">
+                <h1 class="recordingsHeader">Recordings Playlist</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 class="recordingTitle">Chamber Music</h3>
+            </div>
+        </div>
         <div class="row">
             <div class="col">
                 <div id ="accordion">
                     <div class="card">
                         <div role="tab" class="card-header">
-                            <h4><a data-toggle="collapse" data-target="#paganini">Paganini Caprice No 5</a></h4>
-                            <div class="collapse" id="paganini" data-parent="#accordion">    
+                            <h4><a data-toggle="collapse" data-target="#schumann">R. Schumann Drei Romanzen</a></h4>
+                            <div class="collapse" id="schumann" data-parent="#accordion">    
                                 <div class="card-body">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/540y1Cf0sKk" allowfullscreen></iframe>
-                                    </div>
+                                    <audio class="mediaAudio" src="https://www.mfiles.co.uk/mp3-downloads/carl-filtsch-romance-op3-no1.mp3" controls loop>Piano Cool</audio>
                                     <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
                                         suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
                                         luctus quis diam.</p>
@@ -143,12 +154,10 @@
                     </div>
                     <div class="card">
                         <div role="tab" class="card-header">
-                            <h4><a class="collapsed" data-toggle="collapse" data-target="#concertoOne">Jean Francaix Clarinet Concerto I</a></h4>
-                            <div class="collapse" id="concertoOne" data-parent="#accordion">    
+                            <h4><a data-toggle="collapse" data-target="#weber">C. M. von Weber Duo Concertante</a></h4>
+                            <div class="collapse" id="weber" data-parent="#accordion">    
                                 <div class="card-body">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/POfKTXV15aE" allowfullscreen></iframe>
-                                    </div>
+                                    <audio class="mediaAudio" src="https://www.mfiles.co.uk/mp3-downloads/carl-filtsch-romance-op3-no1.mp3" controls loop>Piano Cool</audio>
                                     <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
                                         suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
                                         luctus quis diam.</p>
@@ -158,12 +167,10 @@
                     </div>
                     <div class="card">
                         <div role="tab" class="card-header">
-                            <h4><a class="collapsed" data-toggle="collapse" data-target="#concertoFour">Jean Francaix Clarinet Concerto IV</a></h4>
-                            <div class="collapse" id="concertoFour" data-parent="#accordion">    
+                            <h4><a data-toggle="collapse" data-target="#valdez">F. Valdez Tema con Variaciones</a></h4>
+                            <div class="collapse" id="valdez" data-parent="#accordion">    
                                 <div class="card-body">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YQHzDnLUk6Y" allowfullscreen></iframe>
-                                    </div>
+                                    <audio class="mediaAudio" src="https://www.mfiles.co.uk/mp3-downloads/carl-filtsch-romance-op3-no1.mp3" controls loop>Piano Cool</audio>
                                     <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
                                         suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
                                         luctus quis diam.</p>
@@ -173,12 +180,10 @@
                     </div>
                     <div class="card">
                         <div role="tab" class="card-header">
-                            <h4><a class="collapsed" data-toggle="collapse" data-target="#bassi">Bassi Rigoletto Fantasy</a></h4>
-                            <div class="collapse" id="bassi" data-parent="#accordion">    
+                            <h4><a data-toggle="collapse" data-target="#poulenc">F. Poulenc Clarinet Sonata</a></h4>
+                            <div class="collapse" id="poulenc" data-parent="#accordion">    
                                 <div class="card-body">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D5Vr4VKZM3w" allowfullscreen></iframe>
-                                    </div>
+                                    <audio class="mediaAudio" src="https://www.mfiles.co.uk/mp3-downloads/carl-filtsch-romance-op3-no1.mp3" controls loop>Piano Cool</audio>
                                     <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut est id felis tristique 
                                         suscipit efficitur in arcu. Nulla eget est eros. Duis mauris metus, accumsan et gravida et, 
                                         luctus quis diam.</p>
@@ -192,9 +197,9 @@
     </section>
 
       <!-- STREAM -->
-    <section id="stream" class="container">  
+    <section id="stream" class="container streamSection">  
         <div class="row">
-            <h1>Live Stream</h1> 
+            <h1 class="liveStreamHeader">Live Stream</h1> 
         </div>
         <div class="row stream-screen">
             <p class="play-icon"><i class="fa fa-play"></i></p> 
